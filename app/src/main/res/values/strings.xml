@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CalculatorUI</string>
+    <string name="arrow"><![CDATA[<]]></string>
 </resources>
