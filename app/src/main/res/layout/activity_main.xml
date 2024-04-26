@@ -10,7 +10,7 @@
 
 
     <Button
-        android:id="@+id/btn0"
+        android:id="@+id/btnZero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -38,7 +38,7 @@
         android:textSize="60sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn0"
+        app:layout_constraintStart_toEndOf="@+id/btnZero"
         app:layout_constraintTop_toBottomOf="@+id/btnTwo" />
 
     <Button
@@ -84,7 +84,7 @@
         android:text="@string/_1"
         android:textColor="@color/white"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn0"
+        app:layout_constraintBottom_toTopOf="@+id/btnZero"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnFour" />
 
@@ -210,7 +210,7 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/btnFour"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAC" />
+        app:layout_constraintTop_toBottomOf="@+id/btnC" />
 
     <Button
         android:id="@+id/btnEight"
@@ -251,7 +251,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="8dp"
         android:background="#2d2d2d"
-        android:text="@string/x"
+        android:text="@string/multiply"
         android:textColor="@color/white"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/btnMinus"
@@ -260,14 +260,14 @@
         app:layout_constraintTop_toBottomOf="@+id/btnDivide" />
 
     <Button
-        android:id="@+id/btnAC"
+        android:id="@+id/btnC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="8dp"
         android:background="@color/black"
-        android:text="@string/ac"
+        android:text="@string/C"
         android:textColor="@color/white"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/btnSeven"
@@ -286,7 +286,7 @@
         android:textColor="@color/white"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/btnEight"
-        app:layout_constraintStart_toEndOf="@+id/btnAC"
+        app:layout_constraintStart_toEndOf="@+id/btnC"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
@@ -333,7 +333,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/resultView"
             android:layout_width="396dp"
             android:layout_height="198dp"
             android:textColor="@color/white"
@@ -345,7 +345,7 @@
             android:textSize="60sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/operationView"
             android:layout_width="396dp"
             android:layout_height="198dp"
             android:layout_weight="1"

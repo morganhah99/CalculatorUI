@@ -15,11 +15,11 @@
     <string name="_7">7</string>
     <string name="_8">8</string>
     <string name="_9">9</string>
-    <string name="x">x</string>
-    <string name="ac">AC</string>
+    <string name="multiply">x</string>
+    <string name="C">C</string>
     <string name="paranthesis">( )</string>
     <string name="module">%</string>
     <string name="divide">/</string>
-    <string name="result">100</string>
+    <string name="result">0</string>
     <string name="operation">20 x 5</string>
 </resources>
